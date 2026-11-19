@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": [
+      "随机迷宫地形 - 自然墙"
+    ],
+    "min_format": [121,0],
+    "max_format": 2147
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": [
+      "2D环绕周期波地形 三次函数"
+    ],
+    "min_format": [121,0],
+    "max_format": 2147
+  }
+}

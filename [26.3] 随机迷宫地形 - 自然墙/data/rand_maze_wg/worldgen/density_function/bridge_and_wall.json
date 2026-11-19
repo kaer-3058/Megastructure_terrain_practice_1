@@ -1,0 +1,5 @@
+{
+    "type": "add",
+    "left": "rand_maze_wg:wall_set",
+    "right": "rand_maze_wg:bridge_set"
+}

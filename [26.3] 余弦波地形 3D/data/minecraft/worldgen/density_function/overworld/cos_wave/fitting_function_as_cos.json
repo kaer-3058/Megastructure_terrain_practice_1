@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:sub",
+    "left": {
+        "type": "minecraft:div",
+        "left": 6.0,
+        "right": {
+            "type": "minecraft:add",
+            "left": 1.0,
+            "right": {
+                "type": "minecraft:mul",
+                "left": 0.0810569469138702171551035,
+                "right": {
+                    "type": "minecraft:square",
+                    "input": "minecraft:overworld/cos_wave/fitting_function_sign"
+                }
+            }
+        }
+    },
+    "right": 5.0
+}

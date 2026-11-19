@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:sub",
+    "left": "minecraft:overworld/cos_wave/input",
+    "right": {
+        "type": "minecraft:mul",
+        "left": 2.0,
+        "right": {
+            "type": "minecraft:floor",
+            "input": {
+                "type": "minecraft:div",
+                "left": {
+                    "type": "minecraft:add",
+                    "left": 1.0,
+                    "right": {
+                        "type": "minecraft:mul",
+                        "left": "minecraft:overworld/cos_wave/input",
+                        "right": 2.0
+                    }
+                },
+                "right": 4.0
+            }
+        }
+    }
+}

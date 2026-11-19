@@ -1,0 +1,8 @@
+{
+    "type": "mul",
+    "left": 2.0,
+    "right": {
+        "type": "cube",
+        "input": "minecraft:overworld/periodic_wave/sign"
+    }
+}

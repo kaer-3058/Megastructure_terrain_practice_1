@@ -1,0 +1,5 @@
+{
+    "type": "add",
+    "left": "minecraft:overworld/final_density_old",
+    "right": "rand_maze_wg:bridge_and_wall"
+}

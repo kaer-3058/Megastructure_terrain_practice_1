@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:mul",
+    "left": {
+        "type": "minecraft:distance_to_point",
+        "metric": "euclidean",
+        "point": [0,0,0]
+    },
+    "right": {
+        "type": "minecraft:div",
+        "left": 3.1415926535897932384626433,
+        "right": 50.0
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "mul",
+    "left": 10000.0,
+    "right": {
+        "type": "add",
+        "left": {
+            "type": "gradient",
+            "axis": "z",
+            "tiling": "clamp_to_edge",
+            "from_coordinate": 0,
+            "from_value": 0.0,
+            "to_coordinate": 30000000,
+            "to_value": 3000.0
+        },
+        "right": {
+            "type": "gradient",
+            "axis": "z",
+            "tiling": "clamp_to_edge",
+            "from_coordinate": 0,
+            "from_value": 0.0,
+            "to_coordinate": -30000000,
+            "to_value": -3000.0
+        }
+    }
+}

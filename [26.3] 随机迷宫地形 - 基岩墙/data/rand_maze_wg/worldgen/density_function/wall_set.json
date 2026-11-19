@@ -1,0 +1,57 @@
+{
+    "type": "range_choice",
+    "input": "rand_maze_wg:random_number_1",
+    "max_exclusive": 0.0760041309407,
+    "min_inclusive": -0.0760041309407,
+    "when_in_range": 0.0,
+    "when_out_of_range": {
+        "type": "range_choice",
+        "input": "rand_maze_wg:random_number_1",
+        "max_exclusive": 1000.0,
+        "min_inclusive": 0.0,
+        "when_in_range": {
+            "type": "range_choice",
+            "input": "rand_maze_wg:random_number_1",
+            "max_exclusive": 0.2524863700718,
+            "min_inclusive": 0.0,
+            "when_in_range": {
+                "type": "range_choice",
+                "input": "rand_maze_wg:x_mod_60",
+                "max_exclusive": 61.0,
+                "min_inclusive": 40.0,
+                "when_in_range": 100.0,
+                "when_out_of_range": 0.0
+            },
+            "when_out_of_range": {
+                "type": "range_choice",
+                "input": "rand_maze_wg:x_mod_60",
+                "max_exclusive": 20.0,
+                "min_inclusive": -1.0,
+                "when_in_range": 100.0,
+                "when_out_of_range": 0.0
+            }
+        },
+        "when_out_of_range": {
+            "type": "range_choice",
+            "input": "rand_maze_wg:random_number_1",
+            "max_exclusive": 0.0,
+            "min_inclusive": -0.2524863700718,
+            "when_in_range": {
+                "type": "range_choice",
+                "input": "rand_maze_wg:z_mod_60",
+                "max_exclusive": 61.0,
+                "min_inclusive": 40.0,
+                "when_in_range": 100.0,
+                "when_out_of_range": 0.0
+            },
+            "when_out_of_range": {
+                "type": "range_choice",
+                "input": "rand_maze_wg:z_mod_60",
+                "max_exclusive": 20.0,
+                "min_inclusive": -1.0,
+                "when_in_range": 100.0,
+                "when_out_of_range": 0.0
+            }
+        }
+    }
+}

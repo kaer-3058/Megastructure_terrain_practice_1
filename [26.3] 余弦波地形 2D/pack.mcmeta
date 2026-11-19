@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": [
+      "余弦波地形 2D"
+    ],
+    "min_format": [121,0],
+    "max_format": 2147
+  }
+}

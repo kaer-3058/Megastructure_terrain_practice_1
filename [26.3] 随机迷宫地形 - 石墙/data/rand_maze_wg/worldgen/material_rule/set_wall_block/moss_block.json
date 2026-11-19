@@ -1,0 +1,49 @@
+{
+    "type": "ore_vein",
+    "ore_block": "moss_block",
+    "raw_ore_block": "moss_block",
+    "filler_block": "moss_block",
+    "raw_ore_chance": 0.5,
+    "density": {
+        "type": "range_choice",
+        "input": "rand_maze_wg:bridge_and_wall",
+        "max_exclusive": 1000.0,
+        "min_inclusive": 1.0,
+        "when_in_range": {
+            "type": "mul",
+            "left": 0.2,
+            "right": {
+                "type": "range_choice",
+                "input": "minecraft:y",
+                "max_exclusive": 64.0,
+                "min_inclusive": -4064.0,
+                "when_in_range": 1.0,
+                "when_out_of_range": {
+                    "type": "minecraft:square",
+                    "input": {
+                        "type": "div",
+                        "left": 64.0,
+                        "right": "minecraft:y"
+                    }
+                }
+            }
+        },
+        "when_out_of_range": 0.0
+    },
+    "filler_gap": {
+        "type": "range_choice",
+        "input": "rand_maze_wg:bridge_and_wall",
+        "max_exclusive": 1000.0,
+        "min_inclusive": 1.0,
+        "when_in_range": 1.0,
+        "when_out_of_range": -1.0
+    },
+    "richness": {
+        "type": "range_choice",
+        "input": "rand_maze_wg:bridge_and_wall",
+        "max_exclusive": 1000.0,
+        "min_inclusive": 1.0,
+        "when_in_range": -1.0,
+        "when_out_of_range": 1.0
+    }
+}

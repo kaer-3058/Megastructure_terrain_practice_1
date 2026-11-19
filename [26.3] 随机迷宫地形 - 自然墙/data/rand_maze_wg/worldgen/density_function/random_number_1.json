@@ -1,0 +1,38 @@
+{
+    "type": "cache",
+    "input": {
+        "type": "slice",
+        "axis": "y",
+        "coordinate": 0,
+        "input": {
+            "type": "noise",
+            "noise": "rand_maze_wg:scattered_random",
+            "xz_scale": 0.0,
+            "y_scale": 0.0,
+            "shift_x": {
+                "type": "mul",
+                "left": 60.0,
+                "right": {
+                    "type": "floor",
+                    "input": {
+                        "type": "div",
+                        "left": "rand_maze_wg:abs_x",
+                        "right": 60.0
+                    }
+                }
+            },
+            "shift_z": {
+                "type": "mul",
+                "left": 60.0,
+                "right": {
+                    "type": "floor",
+                    "input": {
+                        "type": "div",
+                        "left": "rand_maze_wg:abs_z",
+                        "right": 60.0
+                    }
+                }
+            }
+        }
+    }
+}

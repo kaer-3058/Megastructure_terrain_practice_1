@@ -1,0 +1,46 @@
+{
+    "type": "cache",
+    "input": {
+        "type": "slice",
+        "axis": "y",
+        "coordinate": 0,
+        "input": {
+            "type": "noise",
+            "noise": "rand_maze_wg:scattered_random",
+            "xz_scale": 0.0,
+            "y_scale": 0.0,
+            "shift_x": {
+                "type": "add",
+                    "left": {
+                    "type": "mul",
+                    "left": 120.0,
+                    "right": {
+                        "type": "floor",
+                        "input": {
+                            "type": "div",
+                            "left": "rand_maze_wg:abs_x",
+                            "right": 120.0
+                        }
+                    }
+                },
+                "right": 10000.0
+            },
+            "shift_z": {
+                "type": "add",
+                    "left": {
+                    "type": "mul",
+                    "left": 120.0,
+                    "right": {
+                        "type": "floor",
+                        "input": {
+                            "type": "div",
+                            "left": "rand_maze_wg:abs_z",
+                            "right": 120.0
+                        }
+                    }
+                },
+                "right": -10000.0
+            }
+        }
+    }
+}

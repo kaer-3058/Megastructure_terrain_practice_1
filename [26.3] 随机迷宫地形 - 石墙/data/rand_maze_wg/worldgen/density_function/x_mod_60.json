@@ -1,0 +1,16 @@
+{
+    "type": "sub",
+    "left": "rand_maze_wg:abs_x",
+    "right": {
+        "type": "mul",
+        "left": 60.0,
+        "right": {
+            "type": "floor",
+            "input": {
+                "type": "div",
+                "left": "rand_maze_wg:abs_x",
+                "right": 60.0
+            }
+        }
+    }
+}

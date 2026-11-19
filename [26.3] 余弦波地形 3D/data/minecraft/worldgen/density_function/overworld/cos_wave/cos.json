@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/cos_wave/fitting_function_sign",
+    "max_exclusive": 1.5707963267948966192313216,
+    "min_inclusive": -1.5707963267948966192313216,
+    "when_in_range": "minecraft:overworld/cos_wave/fitting_function_as_cos",
+    "when_out_of_range": "minecraft:overworld/cos_wave/-f_x-pi"
+}

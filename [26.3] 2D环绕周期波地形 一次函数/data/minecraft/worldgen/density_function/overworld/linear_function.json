@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:add",
+    "left": 0.1,
+    "right": {
+        "type": "minecraft:div",
+        "left": "minecraft:overworld/periodic_wave/distance",
+        "right": 800.0
+    }
+}

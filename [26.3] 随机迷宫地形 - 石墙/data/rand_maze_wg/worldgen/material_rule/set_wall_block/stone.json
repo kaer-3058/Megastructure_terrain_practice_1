@@ -1,0 +1,45 @@
+{
+    "type": "ore_vein",
+    "ore_block": "stone",
+    "raw_ore_block": "stone",
+    "filler_block": "stone",
+    "raw_ore_chance": 0.5,
+    "density": {
+        "type": "range_choice",
+        "input": "rand_maze_wg:bridge_and_wall",
+        "max_exclusive": 1000.0,
+        "min_inclusive": 1.0,
+        "when_in_range": {
+            "type": "range_choice",
+            "input": {
+                "type": "noise",
+                "noise": "rand_maze_wg:scattered_random",
+                "xz_scale": 1.0,
+                "y_scale": 1.0,
+                "shift_x": 4000.0,
+                "shift_z": 4000.0
+            },
+            "max_exclusive": 0.1226387523659,
+            "min_inclusive": -0.3,
+            "when_in_range": 0.7,
+            "when_out_of_range": 0.0
+        },
+        "when_out_of_range": 0.0
+    },
+    "filler_gap": {
+        "type": "range_choice",
+        "input": "rand_maze_wg:bridge_and_wall",
+        "max_exclusive": 1000.0,
+        "min_inclusive": 1.0,
+        "when_in_range": 1.0,
+        "when_out_of_range": -1.0
+    },
+    "richness": {
+        "type": "range_choice",
+        "input": "rand_maze_wg:bridge_and_wall",
+        "max_exclusive": 1000.0,
+        "min_inclusive": 1.0,
+        "when_in_range": -1.0,
+        "when_out_of_range": 1.0
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/periodic_wave/distance",
+    "min_inclusive": 0.0,
+    "max_exclusive": 160.0,
+    "when_in_range": 0.0,
+    "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/periodic_wave/distance",
+        "min_inclusive": 160.0,
+        "max_exclusive": 480.0,
+        "when_in_range": {
+            "type": "minecraft:negate",
+            "input": "minecraft:overworld/periodic_wave/main_function"
+        },
+        "when_out_of_range": "minecraft:overworld/periodic_wave/main_function"
+    }
+}
