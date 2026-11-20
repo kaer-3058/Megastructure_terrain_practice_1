@@ -126,6 +126,7 @@ $$
 用噪声做均匀分布：
 
 对均值为 $\mu$ ，标准差为 $\sigma$ 的的噪声进行采样，采样区间为 $[L,U]$ 。若要将噪声值进行映射，以均等的概率映射到 $[a,b]$ ，则映射公式为：
+
 $$
 f\left( x \right) =a+\left( b-a \right) \frac{\mathrm{erf}\left( \frac{x-\mu}{\sqrt{2}\sigma} \right) -\mathrm{erf}\left( \frac{L-\mu}{\sqrt{2}\sigma} \right)}{\mathrm{erf}\left( \frac{U-\mu}{\sqrt{2}\sigma} \right) -\mathrm{erf}\left( \frac{L-\mu}{\sqrt{2}\sigma} \right)}
 $$
