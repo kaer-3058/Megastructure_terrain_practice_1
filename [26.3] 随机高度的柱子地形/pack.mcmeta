@@ -1,0 +1,9 @@
+{
+  "pack": {
+    "description": [
+      "随机高度的柱子地形"
+    ],
+    "min_format": [121,0],
+    "max_format": 2147
+  }
+}

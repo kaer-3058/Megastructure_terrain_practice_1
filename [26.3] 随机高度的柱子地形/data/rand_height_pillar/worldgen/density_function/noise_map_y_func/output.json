@@ -1,0 +1,9 @@
+{
+    "type": "add",
+    "left": 128.0,
+    "right": {
+        "type": "mul",
+        "left": 192.41650495187481893148,
+        "right": "rand_height_pillar:noise_map_y_func/erf"
+    }
+}

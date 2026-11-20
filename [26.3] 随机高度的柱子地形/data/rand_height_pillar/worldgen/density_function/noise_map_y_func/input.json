@@ -1,0 +1,8 @@
+{
+    "type": "mul",
+    "left": 2.35702260395515841466,
+    "right": {
+        "type": "abs",
+        "input": "rand_height_pillar:random_number_1"
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "type": "sub",
+    "left": 1.0,
+    "right": {
+        "type": "div",
+        "left": 1.0,
+        "right": {
+            "type": "square",
+            "input": {
+                "type": "square",
+                "input": {
+                    "type": "add",
+                    "left": 1.0,
+                    "right": {
+                        "type": "add",
+                        "left": {
+                            "type": "mul",
+                            "left": 0.278393,
+                            "right": "rand_height_pillar:noise_map_y_func/input"
+                        },
+                        "right": {
+                            "type": "add",
+                            "left": {
+                                "type": "mul",
+                                "left": 0.230389,
+                                "right": {
+                                    "type": "square",
+                                    "input": "rand_height_pillar:noise_map_y_func/input"
+                                }
+                            },
+                            "right": {
+                                "type": "add",
+                                "left": {
+                                    "type": "mul",
+                                    "left": 0.000972,
+                                    "right": {
+                                        "type": "cube",
+                                        "input": "rand_height_pillar:noise_map_y_func/input"
+                                    }
+                                },
+                                "right": {
+                                    "type": "mul",
+                                    "left": 0.078108,
+                                    "right": {
+                                        "type": "square",
+                                        "input": {
+                                            "type": "square",
+                                            "input": "rand_height_pillar:noise_map_y_func/input"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "type": "add",
+    "left": "minecraft:overworld/final_density_old",
+    "right": "rand_height_pillar:pillar_set"
+}

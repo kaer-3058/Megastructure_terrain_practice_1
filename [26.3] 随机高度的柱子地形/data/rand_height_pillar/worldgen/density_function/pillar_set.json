@@ -1,0 +1,19 @@
+{
+    "type": "range_choice",
+    "input": "minecraft:y",
+    "max_exclusive": 4062.0,
+    "min_inclusive": -51.0,
+    "when_in_range": {
+        "type": "range_choice",
+        "input": {
+            "type": "sub",
+            "left": "minecraft:y",
+            "right": "rand_height_pillar:noise_map_y_func/output"
+        },
+        "max_exclusive": 0.0,
+        "min_inclusive": -5000.0,
+        "when_in_range": 100.0,
+        "when_out_of_range": -100.0
+    },
+    "when_out_of_range": 0.0
+}

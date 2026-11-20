@@ -1,0 +1,8 @@
+{
+    "type": "mul",
+    "left": {
+        "type": "sign",
+        "input": "rand_height_pillar:random_number_1"
+    },
+    "right": "rand_height_pillar:noise_map_y_func/approximation_erf"
+}
